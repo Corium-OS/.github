@@ -1,6 +1,13 @@
-# Corium
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Corium-OS/Corium/main/docs/assets/logo.png"
+       alt="Corium" width="140" height="140">
+</p>
 
-**An immutable Linux distribution that boots into a Kubernetes node.**
+<h1 align="center">Corium</h1>
+
+<p align="center">
+  <strong>An immutable Linux distribution that boots into a Kubernetes node.</strong>
+</p>
 
 A complete single-node cluster, in full:
 
