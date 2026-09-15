@@ -13,6 +13,10 @@ corium:
 That is the entire interface for the common case. Every other field has a
 default, and every default can be overridden.
 
+**[Read the docs](https://corium-os.github.io/Corium/)** ·
+**[Quick start](https://corium-os.github.io/Corium/docs/guides/quickstart/)** ·
+**[Source](https://github.com/Corium-OS/Corium)**
+
 ---
 
 ## Three ideas, chosen together
@@ -33,7 +37,8 @@ artefact rebuilt from a digest, not a machine that accumulates state.
 language: the mechanism every cloud and hypervisor already speaks. Where
 cloud-init does not exist — bare metal, PXE, a preconfigured appliance — the
 same schema is read from a file, the kernel command line, or a default baked
-into the image.
+into the image. Every field is documented in the
+[configuration reference](https://corium-os.github.io/Corium/docs/reference/configuration/).
 
 ## What it is not
 
@@ -61,6 +66,15 @@ mechanism, however good.
 on real hardware: single nodes, unattended ISO installs, and a three-controller
 highly available control plane whose virtual IP was verified by hard-stopping
 the controller holding it. It is not ready for anything you would miss.
+
+## Where to go
+
+| | |
+|---|---|
+| [Documentation](https://corium-os.github.io/Corium/) | Quick start, configuration reference, and the decisions behind the project |
+| [Corium-OS/Corium](https://github.com/Corium-OS/Corium) | The operating system: `Containerfile`, agent, and deployment scripts |
+| [Examples](https://github.com/Corium-OS/Corium/tree/main/docs/examples) | Single node, workers, add-ons, a custom CNI, and a highly available control plane |
+| [Architecture decisions](https://corium-os.github.io/Corium/docs/reference/adr-0001-base-image/) | Why fedora-bootc over Fedora CoreOS, and why ext4 over xfs |
 
 ---
 
